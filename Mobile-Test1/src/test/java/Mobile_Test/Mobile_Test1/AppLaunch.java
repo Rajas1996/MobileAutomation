@@ -17,7 +17,7 @@ public class AppLaunch {
         options.setCapability("appium:appActivity", "com.example.my_policy_app.MainActivity");
         options.setCapability("platformName", "Android");
         options.setCapability("appium:platformVersion", "14.0");
-        options.setCapability("appium:automationName", "uiautomator2");
+        options.setCapability("appium:automationName", "uiautomator2"); // to invoke mobile app
          
         try {
             AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
