@@ -18,7 +18,7 @@ public class Launch {
 	
 	public static void openMobileapp() throws MalformedURLException {
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setCapability(Mobile, cap);
+		//cap.setCapability(Mobile, cap);
 		//cap.setCapability(MobileCapabilityType., "Nothing Phone (1)");
 		cap.setCapability("udid", "P12278000659");
 		cap.setCapability("platformName", "Android");
